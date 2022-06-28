@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".SignInActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="23.06dp"
+                android:layout_marginRight="23.06dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:alpha="1"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Почта"
+                    android:textColor="@color/main_color"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="9.01dp"
+                    android:alpha="0.4"
+                    android:fontFamily="@font/comfortaa"
+                    android:hint="repina@mail.ru"
+                    android:inputType="textEmailAddress"
+                    android:lines="1"
+                    android:singleLine="true"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="37.04dp"
+                    android:alpha="1"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Пароль"
+                    android:textColor="@color/main_color"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="9.01dp"
+                    android:alpha="0.4"
+                    android:fontFamily="@font/comfortaa"
+                    android:hint="* * * * * * * * "
+                    android:inputType="textPassword"
+                    android:lines="1"
+                    android:singleLine="true"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="53.06dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:gravity="center"
+                    android:minHeight="48dp"
+                    android:onClick="signUp"
+                    android:text="Зарегестрироваться"
+                    android:textColor="@color/main_color"
+                    android:textSize="17sp" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="316sp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="30.26dp"
+                    android:background="@drawable/p_cornen_radius"
+                    android:fontFamily="@font/comfortaa"
+                    android:onClick="signIn"
+                    android:text="Войти"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    app:iconTint="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="316sp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="17dp"
+                    android:background="@drawable/p_cornen_radius"
+                    android:backgroundTint="@color/main_color"
+                    android:fontFamily="@font/comfortaa"
+                    android:onClick="back"
+                    android:text="Назад"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

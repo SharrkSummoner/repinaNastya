@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/android studio/repinaNastya/app/src/main/res/drawable-v24/cornen_radius.xml" value="0.1" />
+        <entry key="..\:/android studio/repinaNastya/app/src/main/res/drawable-v24/p_cornen_radius.xml" value="0.1" />
+        <entry key="..\:/android studio/repinaNastya/app/src/main/res/layout/activity_launch_screen.xml" value="0.152" />
+        <entry key="..\:/android studio/repinaNastya/app/src/main/res/layout/activity_main.xml" value="0.18840579710144928" />
+        <entry key="..\:/android studio/repinaNastya/app/src/main/res/layout/activity_main_menu.xml" value="0.18840579710144928" />
+        <entry key="..\:/android studio/repinaNastya/app/src/main/res/layout/activity_menu_item.xml" value="0.18931159420289856" />
+        <entry key="..\:/android studio/repinaNastya/app/src/main/res/layout/activity_salats.xml" value="0.18840579710144928" />
+        <entry key="..\:/android studio/repinaNastya/app/src/main/res/layout/activity_sign_in.xml" value="0.18840579710144928" />
+        <entry key="..\:/android studio/repinaNastya/app/src/main/res/layout/activity_sign_up.xml" value="0.18840579710144928" />
+        <entry key="..\:/android studio/repinaNastya/app/src/main/res/layout/activity_sops.xml" value="0.18840579710144928" />
+        <entry key="..\:/android studio/repinaNastya/app/src/main/res/layout/list_item.xml" value="0.18840579710144928" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

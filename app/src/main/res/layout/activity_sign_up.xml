@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:mask="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".SignUpActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="23.06dp"
+                android:layout_marginRight="23.06dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8.02dp"
+                    android:alpha="1"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Почта"
+                    android:textColor="@color/main_color"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="9.01dp"
+                    android:alpha="0.4"
+                    android:fontFamily="@font/comfortaa"
+                    android:hint="repina@mail.ru"
+                    android:inputType="textEmailAddress"
+                    android:lines="1"
+                    android:outlineAmbientShadowColor="#000000"
+                    android:outlineSpotShadowColor="#000000"
+                    android:shadowColor="#000000"
+                    android:singleLine="true"
+                    android:textColor="#000000"
+                    android:textColorHighlight="#000000"
+                    android:textColorHint="#000000"
+                    android:textColorLink="#000000"
+                    android:textSize="17sp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="37.04dp"
+                    android:alpha="1"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Пароль"
+                    android:textColor="@color/main_color"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="9.01dp"
+                    android:alpha="0.4"
+                    android:fontFamily="@font/comfortaa"
+                    android:hint="* * * * * * * * "
+                    android:inputType="textPassword"
+                    android:lines="1"
+                    android:singleLine="true"
+                    android:textColor="#000000"
+                    android:textColorHighlight="#000000"
+                    android:textColorHint="#000000"
+                    android:textColorLink="#000000"
+                    android:textSize="17sp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="37.04dp"
+                    android:alpha="1"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Имя Фамилия"
+                    android:textColor="@color/main_color"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="9.01dp"
+                    android:alpha="0.4"
+                    android:fontFamily="@font/comfortaa"
+                    android:hint="Анастасия Репина"
+                    android:inputType="textPersonName"
+                    android:lines="1"
+                    android:singleLine="true"
+                    android:textColor="#000000"
+                    android:textColorHighlight="#000000"
+                    android:textColorHint="#000000"
+                    android:textColorLink="#000000"
+                    android:textSize="17sp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="37.04dp"
+                    android:alpha="1"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Номер телефона"
+                    android:textColor="@color/main_color"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="9.01dp"
+                    android:alpha="0.4"
+                    android:fontFamily="@font/comfortaa"
+                    android:hint="8 930 777 11 00"
+                    android:inputType="phone"
+                    android:lines="1"
+                    android:maxLength="16"
+                    android:singleLine="true"
+                    android:textColor="#000000"
+                    android:textColorHighlight="#000000"
+                    android:textColorHint="#000000"
+                    android:textColorLink="#000000"
+                    android:textSize="17sp" />
+
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="316sp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="30.26dp"
+                    android:background="@drawable/p_cornen_radius"
+                    android:backgroundTint="@color/main_color"
+                    android:fontFamily="@font/comfortaa"
+                    android:onClick="signUp"
+                    android:text="Зарегестироваться"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="17sp" />
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="316sp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="17dp"
+                    android:background="@drawable/p_cornen_radius"
+                    android:backgroundTint="@color/main_color"
+                    android:fontFamily="@font/comfortaa"
+                    android:onClick="back"
+                    android:text="Назад"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="17sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
